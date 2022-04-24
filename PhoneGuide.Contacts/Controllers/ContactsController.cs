@@ -15,7 +15,7 @@ namespace PhoneGuide.Contacts.Controllers
         private readonly IContactManager _contactManager;
         private readonly IContactInfoManager _contactInfoManager;
 
-        public ContactsController(IContactManager contactService,IContactInfoManager contactInfoManager)
+        public ContactsController(IContactManager contactService, IContactInfoManager contactInfoManager)
         {
             _contactManager = contactService;
             _contactInfoManager = contactInfoManager;
